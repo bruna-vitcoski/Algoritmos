@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[]) 
+{
+	int num1;
+	printf("Digite um numero inteiro: ");
+	scanf("%d", &num1);
+	
+	int num2;
+	printf("Digite mais um numero inteiro: ");
+	scanf("%d", &num2);
+	
+	int total;
+	total = num1 - num2;
+	
+	printf("o valor total da subtracao eh %d", total);
+
+	return 0;
+		
+}

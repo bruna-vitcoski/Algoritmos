@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[]) 
+{
+	int num;
+	
+	printf("Digite um numero positivo ou negativo: \n");
+	scanf("%d", &num);
+	
+	if(num>=0)
+	 {
+	printf("O valor sera positivo");
+	}
+	else
+	{
+	int negativo = num*(-1);
+	 printf("O valor sera: %d", negativo);
+}
+	
+	return 0;
+}

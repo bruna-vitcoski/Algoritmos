@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[])
+ {
+	
+	float num1, num2, num3, total;
+	
+	printf("\n\nDigite o primeiro numero decimal: ");
+	scanf("%f", &num1);
+	
+	printf("\n\nDigite o segundo numero decimal: ");
+	scanf("%f", &num2);
+
+	printf("\n\nDigite o terceiro numero decimal: ");
+	scanf("%f", &num3);
+	
+	total = num1 * num2 * num3;
+	
+	printf(" \n\n A multiplicacao dos numeros e: %.0f", total);
+
+	return 0;
+}

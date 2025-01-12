@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[]) 
+{
+	int anos, meses, dias, sobra;
+	
+	printf(" Digite a quantidade em dias: ");
+	scanf("%d",&dias);
+	
+	anos = dias/365;
+	sobra=  dias%365;
+	
+	meses = sobra/30;
+	dias =  sobra%30;
+	
+	printf("ANOS: %d MESES: %d DIAS: %d", anos, meses, dias);
+	
+	return 0;
+}

@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[]) 
+{
+	int idade;
+	
+	printf(" Digite sua idade: ");
+	scanf("%d", &idade);
+	
+	if (idade>=16) {
+		
+		printf("Você pode votar");
+			}
+	
+	else {
+		printf(" aguarde ate completar 16 anos, para voltar");
+	}
+	
+	return 0;
+}

@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[]) 
+{
+	printf("\n\nTem chuva amanha!");
+	printf("\n\n4523");
+	printf("\n\n3 + 4 e 7 ");
+	printf("\n\n3 + 4 ");
+	printf("\n\nTenho um gato branco.");
+	printf("\n\nTenho um cachorro cinza.");
+
+	return 0;
+}

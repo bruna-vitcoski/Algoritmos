@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[]) 
+{
+	float salario;
+	printf("digite o valor do salario:");
+	scanf("%f", &salario);
+	
+	float novoSalario = salario + salario * 0.35;
+	printf("o novo salario eh %.2f", novoSalario);
+
+	return 0;
+}

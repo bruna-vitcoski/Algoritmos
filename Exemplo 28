@@ -1,0 +1,39 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[])
+ {
+ 	int num1, num2, op, soma, sub, multi, div;
+ 	
+	printf("Digite um numero inteiro: ");
+	scanf("%d", &num1);
+	printf("Digite outro inteiro: ");
+	scanf("%d", &num2);
+	
+				
+	printf("Qual operacao voce gostaria de utilizar?\n1-soma\n2-subtracao\n3-multiplicacao\n4-divisao\n");
+	scanf("%d", &op);
+
+	if (op==1)
+	{
+	soma= num1+num2;
+	printf("%d", soma);
+	}
+	else if (op==2)
+	{
+	soma= num1-num2;
+	printf("%d", sub);
+	}
+	if (op==3)
+	{
+	soma= num1*num2;
+	printf("%d", multi);
+	}
+	if (op==4)
+	{
+	soma= num1/num2;
+	printf("%d", div);
+	}
+	 	
+		return 0;
+	}

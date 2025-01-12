@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[]) 
+{
+	int num1;
+	printf("Digite um numero inteiro: ");
+	scanf("%d", &num1);
+	
+	int num2;
+	printf("Digite um numero inteiro: ");
+	scanf("%d", &num2);
+	
+	int total1= num1 + num2;
+	int total2= num1 - num2;
+	int total3= num1 * num2;
+	int total4= num1 / num2;
+	
+	printf("\n\nO valor total da soma eh %d", total1);
+	printf("\n\nO valor total da subtracao eh %d", total2);
+	printf("\n\nO valor total da multiplicacao eh %d", total3);
+	printf("\n\nO valor total da divisao eh %d", total4);
+
+	return 0;
+}

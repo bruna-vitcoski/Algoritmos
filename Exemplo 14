@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[]) 
+{
+	float km, litros, consumo;
+	
+	printf(" Digite a distância que um carro percorreu em km: ");
+	scanf("%f", &km);
+	
+	printf("\nQuantidade de litros de gasolina gastos: ");
+	scanf("%f", &litros);
+	
+	consumo = km/litros;
+	
+	printf("\n A media de consumo de seu veiculo e de: %.2f", consumo);
+	
+	return 0;
+}

@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[]) 
+{
+	float not1, not2, media;
+	
+	printf(" Digite a primeira nota: ");
+	scanf("%f", &not1);
+	
+	printf(" Digite a segunda nota: ");
+	scanf("%f", &not2);
+	
+	
+	media = (not1 + not2)/2;
+
+	if (media >=7) {
+		
+		printf("APROVADO");
+	}
+
+	 else {
+	 
+	 printf ("REPROVADO");
+
+}
+	return 0;
+}

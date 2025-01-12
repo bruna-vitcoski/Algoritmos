@@ -1,0 +1,48 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[]) 
+{
+		int acesso;
+	printf("Qual porta voce deseja entrar? ");
+	scanf("%d", &acesso);
+
+	if(acesso==1)
+	{ int codigo;
+	printf("\nDigite seu codigo: ");
+	scanf("%d",&codigo);
+	if (codigo>=1000 && 2000>=codigo || codigo>=3000 && 5000>=codigo)
+	{ printf("Acesso liberado");}
+	else if (codigo>=150 && 350>=codigo || codigo>=10000 & 11000>codigo || codigo>=20000 & 30000>=codigo)
+	{printf("Acesso negado");
+	}
+	}
+	
+	if(acesso==2)
+	{ int codigo;
+	printf("\nDigite seu codigo: ");
+	scanf("%d",&codigo);
+	if (codigo>=150 && 350>=codigo)
+	{ printf("Acesso liberado");}
+	else if (codigo>=10000 & 11000>codigo || codigo>=20000 & 30000>=codigo || codigo>=1000 && 2000>=codigo || codigo>=3000 && 5000>=codigo)
+	{printf("Acesso negado");
+}
+}
+
+	if(acesso==3)
+	{ int codigo;
+	printf("\nDigite seu codigo: ");
+	scanf("%d",&codigo);
+	if (codigo>=10000 & 11000>codigo || codigo>=20000 & 30000>=codigo)
+	{ printf("Acesso liberado");}
+	else if (codigo>=150 && 350>=codigo || codigo>=1000 && 2000>=codigo || codigo>=3000 && 5000>=codigo)
+	{printf("Acesso negado");
+}
+}
+
+if(acesso>3)
+{printf("\n Porta inexistente");
+}
+	
+	return 0;
+}

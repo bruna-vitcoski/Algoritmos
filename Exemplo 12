@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[]) 
+{
+	float peso1, peso2, peso3, media;
+
+	printf(" Digite o peso da primeira pessoa: ");
+	scanf("%f", &peso1);
+	
+	printf(" Digite o peso da segunda pessoa: ");
+	scanf("%f", &peso2);
+	
+	printf(" Digite o peso da terceira pessoa: ");
+	scanf("%f", &peso3);
+	
+	media = (peso1 + peso2 + peso3)/3;
+		
+	printf("A media das três pessoas eh de: %.2f", media);
+
+	return 0;
+}

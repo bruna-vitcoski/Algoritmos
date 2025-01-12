@@ -1,0 +1,35 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[]) 
+{
+	int valor, cem, cinquenta, vinte, dez, cinco, dois, um;
+	int sobracem, sobracinquenta, sobravinte, sobradez, sobracinco, sobradois;
+	
+	printf("Digete o valor: ");
+	scanf("%d", &valor);
+	
+	cem =  valor/100;
+	sobracem = valor%100;
+	
+	cinquenta = sobracem/50;
+	sobracinquenta = sobracem%50;
+	
+	vinte = sobracinquenta/20;
+	sobravinte = sobracinquenta%20;
+	
+	dez = sobravinte/10;
+	sobradez = sobravinte%10;
+	
+	cinco = sobradez/5;
+	sobracinco = sobradez%5;
+	
+	dois =  sobracinco/2;
+	sobradois =  sobracinco%2;
+	
+	um = sobradois/1;
+	
+	printf("notas de 100: %d notas de 50: %d notas de 20: %d notas de 10: %d notas de 5: %d notas de 2: %d notas de 1: %d", cem, cinquenta, vinte, dez, cinco, dois, um);
+
+	return 0;
+}

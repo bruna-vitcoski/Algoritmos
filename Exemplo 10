@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[])
+ 
+ {
+	float num1, num2;
+	float sub1, quad1, cubo2;
+	float div1, div2;
+	
+	printf("Digite o primeiro numero inteiro: ");
+	scanf("%f", &num1);
+	
+	printf("Digite o segundo numero inteiro: ");
+	scanf("%f", &num2);
+	
+	sub1= num1 - num2;
+	div1= num1 / num2;
+	div2= num2 / num1;
+	quad1= num1 * num1;
+	cubo2 = num2* num2* num2;
+	
+	printf("\n Primeiro menos o segundo e: %.2f", sub1);
+	printf("\n Primeiro divido pelo segundo e: %.2f", div1);
+	printf("\n Segundo numero divido pelo primeiro numero e: %.2f", div2);
+	printf("\n Primeiro numero elevado ao quadrado e: %.2f", quad1);
+	printf("\n Segundo numero elevado ao cubo (na potencia 3) e: %.2f", cubo2);
+
+	return 0;
+}

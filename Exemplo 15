@@ -1,0 +1,40 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[])
+ {
+	 float preco1, preco2, preco3, total1, total2, total3, total;
+	 int produto1, produto2, produto3;
+ 	
+ 	printf("Digite o preco do produto 1:");
+ 	scanf("%f", &preco1);
+ 	
+ 	printf("\nDigite a Quantidade do produto 1:");
+ 	scanf("%d", &produto1);
+ 	
+ 	printf("\nDigite o preco do produto 2:");
+ 	scanf("%f", &preco2);
+ 	
+ 	printf("\n Digite a Quantidade do produto 2:");
+ 	scanf("%d", &produto2);
+ 	
+ 	printf("\nDigite o preco do produto 3:");
+ 	scanf("%f", &preco3);
+ 	
+ 	printf("\n Digite a Quantidade do produto3:");
+ 	scanf("%d", &produto3);
+ 	
+ 	total1 = preco1 * produto1;
+ 	total2 = preco2 * produto2;
+ 	total3 = preco3 * produto3;
+ 	
+ 	total = total1 + total2 + total3;
+ 	
+ 	printf(" Digite o total da compra 1 eh de: %f", total1);
+ 	printf("\nDigite o total da compra 2 eh de: %f", total2);
+ 	printf("\n Digete o total da compra 3 eh de: %f", total3);
+ 	
+ 	printf("\n Valor total da compra eh de: %f", total);
+ 	
+	return 0;
+}

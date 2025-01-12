@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[])
+ {
+ 	int num;
+ 	printf("Digite um numero positivo ou negativo: ");
+ 	scanf("%d", &num);
+ 	
+ 	if(num>=0)
+ 	{
+ 	printf("O numero positivo!");
+
+	 }
+	 else {
+	printf(" O numero negativo!");
+	 }
+	return 0;
+}

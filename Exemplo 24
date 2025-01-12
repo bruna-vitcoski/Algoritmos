@@ -1,0 +1,41 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[]) 
+{
+	float ganhos, imposto;
+	
+	printf(" Digite o seu total de ganhos anuais: ");
+	scanf("%f", &ganhos);
+	
+	if (ganhos<=22847.76){
+		
+		printf("não paga imposto");
+	}
+	else if (ganhos<33919.81) {
+		
+		imposto = ganhos*0.075;
+		printf(" voce devera pagar o percentual de 7,5 de seus ganhos IMPOSTO: %.2f", imposto);
+				
+	}
+		else if (ganhos<45012.60) {
+		
+		imposto = ganhos*0.15;
+		printf(" voce devera pagar o percentual de 15 de seus ganhos IMPOSTO: %.2f", imposto);
+				
+	}
+		else if (ganhos<55976.16) {
+		
+		imposto = ganhos*0.225;
+		printf(" voce devera pagar o percentual de 22,5 de seus ganhos IMPOSTO: %.2f", imposto);
+				
+	}
+		else if (ganhos>=55976.16) {
+		
+		imposto = ganhos*0.275;
+		printf("voce devera pagar o percentual de 27,5 de seus ganhos IMPOSTO: %.2f", imposto);
+				
+	}
+	
+	return 0;
+}
